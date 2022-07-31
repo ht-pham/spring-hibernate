@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- Define your beans here -->
+    
+    <!-- Define the dependency -->
+    <bean id="myFortune" 
+          class="com.novicelearner.springdemo.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach" class="com.novicelearner.springdemo.TrackCoach"
+        init-method="startBeans" destroy-method="destroyBeans"> 
+        <!-- init and destroy method can NOT take any args-->
+        <!-- For "prototype" scoped beans, Spring does not call the destroy method. -->
+        <!-- Set up contructor injection -->
+        <constructor-arg ref="myFortune"  />
+        
+    </bean>
+</beans>
+
+
+
+
+
