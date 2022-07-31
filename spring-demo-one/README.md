@@ -1,7 +1,7 @@
 ## Project 1: A basic Java program
 
 ### Summary
-This is a simple Java program which focused on learning how to configure Java project with XML configuration file.
+This is a simple Java program which focused on learning how to configure Java project with XML configuration file. Also, learned about a new special file for Java projects:'.properties' (in this project, it is called sports.properties)
 
 ### Tools
 The best JDK version to run the project: JDK 8 or JDK 11.
