@@ -8,7 +8,7 @@ Folder 'web': where all files for frontend design locates plus two configuration
 ### Tools
 1. The best JDK version to run the project: JDK 8 or JDK 11. 
 2. The Spring framework version to run project: either version 5.3.9 (as latest when this project is uploaded) or any older version.
-3. Last but not least (i.e. required): Apache Tomcat version 9.0 (Newer version cannot support this application).
+3. Last but not least (i.e. required): Apache Tomcat version 9.0 (Newer version cannot support this application). Make sure Apache Tomcat is added as one of servers on your favorite IDE.
 ### How to run the project
-Deploy your new WAR file by copying it to <tomcat-install-directory>\webapps. Once deployment is completed, a folder which has the same name as your WAR file will be created. To visit your web app, go to: http://localhost:8080/<web-app-name\>/
+You can either download the spring-mvc-demo folder, open and run it in your favorite IDE or export the project as .WAR file to deploy the app on Tomcat. (Note: the .WAR file for this project is 45MB exceeding the allowed max size of a file for upload on Git so you have to export the project yourself via your IDE). After exporting to .WAR, deploy your new WAR file by copying it to <tomcat-install-directory>\webapps. Once deployment is completed, a folder which has the same name as your WAR file will be created. To visit your web app, go to: http://localhost:8080/<web-app-name\>/
 
