@@ -20,5 +20,6 @@
         
         <a href="hello/showForm"><h2>Spring MVC Project #1: Process a basic Input Form (Without Data Biding)</h2></a>
         <a href="student/registrationForm"><h2>Spring MVC Project #2: Process a Student Registration Form</h2></a>
+        <a href="customer/newCustomerForm"><h2>Spring MVC Project #3: Process a New Customer Sign Up Form</h2></a>
     </body>
 </html>
