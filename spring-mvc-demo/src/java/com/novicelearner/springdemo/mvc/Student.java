@@ -6,6 +6,7 @@ package com.novicelearner.springdemo.mvc;
 
 //import java.util.LinkedHashMap;
 
+import com.novicelearner.springdemo.mvc.validation.MajorCode;
 import java.util.LinkedHashMap;
 
 
@@ -19,6 +20,9 @@ public class Student {
     private String lastName;
     private String country;
     private String schoolYear;
+    
+    @MajorCode
+    private String majorCode;
     
     private String[] courseList; // this is for form:checkbox demo
     private String[] electiveList; // this is for form:checkboxes demo
@@ -113,6 +117,14 @@ public class Student {
             "World History I","French I", "Spanish I"
         };
         this.electiveList = fallElectives;
+    }
+
+    public String getMajorCode() {
+        return majorCode;
+    }
+
+    public void setMajorCode(String majorCode) {
+        this.majorCode = majorCode;
     }
     
 }
