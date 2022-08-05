@@ -13,10 +13,13 @@
         <title>Student Registration Form</title>
         <link rel="stylesheet" type="text/css" 
               href="${pageContext.request.contextPath}/resources/css/my-test.css">
+        <style>
+            .error { color:red}
+        </style>
     </head>
     <body>
         <h2>Student Registration Form</h2>
-        <form:form action="confirmationForm" modelAttribute="student">
+        <form:form action="processForm" modelAttribute="student">
             First name: <form:input path="firstName" />
             <br><br>
             Last name: <form:input path="lastName" />
@@ -67,6 +70,9 @@
                     <%-- Use .properties file--%>
                     <form:options items="${theCountryOptions}" />
                 </form:select>
+            <br><br>
+            Major: <form:input path="majorCode" />
+            <form:errors path="majorCode" cssClass="error" />
             <br><br>
             School year:
                 <%-- Option 1: form:radiobutton --%>
