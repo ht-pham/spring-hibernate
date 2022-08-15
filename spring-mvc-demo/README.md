@@ -3,6 +3,7 @@
 Finally, the first Java web app is built with Spring framework libraries! The web app has 3 hyperlink links for 3 mini projects. The links are used to redirect the users to some simple webapp forms which are built with a basic frontend design using .JSP files with CSS, JavaScript files and a basic backend configuration with Java classes with Spring framework's libraries.
 ### Directory Explained
 Folder 'build': contains built Java classes, websites (.jsp,css,js files), and **libs** which has all .jar files to run the project. 
+<br>
 Folder 'src': where all Java classes including View Controllers and Model classes locate.
 <br>
 Folder 'web': where all files for frontend design locates plus two configuration .xml files (one for Spring app, other for web service)
