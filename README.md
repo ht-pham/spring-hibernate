@@ -7,6 +7,7 @@ Each folder is one project.
 2. spring-demo-annotations: the second project implements the same functionality as the project #1, but it uses Spring Annotations instead of manipulating XML file.
 3. spring-practice-ioc-di: the third project implements some more advanced topics: inversion of control, dependency injections by using Configuration class instead of XML. 
 4. spring-mvc-demo: the fourth project is the first Spring MVC project which is a web application. Currently, it has two web forms/"mini-projects" done in the web app. Extra software installed for the project: Apache Tomcat **9.0** version to set as the server. 
+5. hibernate-demo: the fifth project is a Hibernate project which implements basic CRUD operations through the established communication with the local host's database on MySQL. To set up the database and user accounts for database access, we used MySQLWorkBench.
 ### Tools/Software
 So far, the tools used for this course: Java JDK for running Java app, Java IDE to build the project, Apache Tomcat 9.0 to run the project on a server. 
 ### Skills/knowledge
