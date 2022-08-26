@@ -8,7 +8,7 @@ Each folder is one project.
 3. spring-practice-ioc-di: the third project implements some more advanced topics: inversion of control, dependency injections by using Configuration class instead of XML. 
 4. spring-mvc-demo: the fourth project is the first Spring MVC project which is a web application. Currently, it has two web forms/"mini-projects" done in the web app. Extra software installed for the project: Apache Tomcat **9.0** version to set as the server. 
 5. hibernate-demo: the fifth project is a Hibernate project which implements basic CRUD operations through the established communication with the local host's database on MySQL. To set up the database and user accounts for database access, we used MySQLWorkBench.
+5. hibernate-employee: Similar to project #5, this is a practice project for Hibernate. The sixth project is a Hibernate project which implements basic CRUD operations through the established communication with the local host's database on MySQL. To set up the database and user accounts for database access, we used MySQLWorkBench.
 ### Tools/Software
-So far, the tools used for this course: Java JDK for running Java app, Java IDE to build the project, Apache Tomcat 9.0 to run the project on a server. 
-### Skills/knowledge
-Other than Java programming skill, the course also helps student learning/reinforcing basic front-end web dev skill set (i.e. HTML syntax for .JSP file (structure of the web pages), CSS & JavaScript for decorative and interactive purposes)
+Tools/Skills that I've learned to use in the course: Java, Apache Tomcat, basic frontend design (HTML syntax for .JSP files, CSS & JavaScript for UI purpose), Spring framework including SpringMVC, Hibernate (Hibernate ORM and Validator), MySQL and MySQL Workbench.
+
