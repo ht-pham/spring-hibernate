@@ -2,6 +2,7 @@
 ### Summary
 This is a simple demo app which uses Hibernate framework to communicate with the database and perform basic CRUD operations. 
 ### Directory Explained
+- Folder 'database': the hb_student_tracker_student.sql file is used for building the database with the 'student' table.
 - Folder 'src': all the source codes are located as well as Hibernate configuration file
 - Folder 'lib': all libraries/frameworks that are used for this project
 - Folder 'dist': .jar file to run the project locally as well as libraries used for this project
