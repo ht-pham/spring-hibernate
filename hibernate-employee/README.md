@@ -11,10 +11,13 @@ The Employee table has 4 columns with id being the primary key. For example:
 |3|Krystal|Kim|Caritas LLC|
 |null|null|null|null|
 
-The Java program have Hibernate configured with login info of the hiring manager 'hrmanager' to have access to database without the need of logging into the account in MySQL Workbench. 
+The Java program have Hibernate configured with login info of the hiring manager 'hrmanager' to have access to database without the need of logging into the account in MySQL Workbench. With the configuration, the program will perform basic CRUD operations (i.e. create, read, update, and delete employee records) directly onto the 'employee' table.
+
 ### Directory Explained
 - Folder 'sql-scripts': where all sql scripts used for building the database, 'employee' table, and other basic operations (i.e. add & read employees' records) as well as creating hiring manager account to manage the database.
-- 
+- Folder 'src': where all source codes for Java program are saved.
+- Folder 'dist': where the classpath including the hibernate-employee.jar file (for running the program) and Hibernate libraries
+- Folder 'lib': where all the libraries needed for this project are located.
 ### Tools
 1. MySQL & MySQLWorkBench ( see installation instruction for MySQL [here](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) and for downloading MySQL Workbench [here](https://dev.mysql.com/downloads/workbench/))
 2. JDK version: 8.0 or 11.0
