@@ -1,7 +1,17 @@
-## Project 5: An Employee Database App
+## Project 6: An Employee Database App
 
 ### Summary
-This project is an employee management app which uses Hibernate to communicate with the database and perform basic CRUD operations. The database is created by using MySQL.
+For the purpose of practicing Hibernate as well as SQL, this project is an employee management app which uses Hibernate to communicate with the database and perform basic CRUD operations. The database is created by using MySQL.
+
+The Employee table has 4 columns with id being the primary key. For example:
+| id  | first_name | last_name |     company       |
+|:---:|:----------:|:---------:|:-----------------:|
+|1|Jason|Willard|Caritas LLC|
+|2|Charlene|Cork|Caritas LLC|
+|3|Krystal|Kim|Caritas LLC|
+|null|null|null|null|
+
+The Java program have Hibernate configured with login info of the hiring manager 'hrmanager' to have access to database without the need of logging into the account in MySQL Workbench. 
 ### Directory Explained
 - Folder 'sql-scripts': where all sql scripts used for building the database, 'employee' table, and other basic operations (i.e. add & read employees' records) as well as creating hiring manager account to manage the database.
 - 
