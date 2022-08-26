@@ -22,7 +22,7 @@ The Java program have Hibernate configured with login info of the hiring manager
 1. MySQL & MySQLWorkBench ( see installation instruction for MySQL [here](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) and for downloading MySQL Workbench [here](https://dev.mysql.com/downloads/workbench/))
 2. JDK version: 8.0 or 11.0
 3. Java IDE: any (i.e. your favorite IDE for Java)
-4. Hibernate: version **5.6** (this is the latest version that still support Java EE; the later version 6.2 only support Jarkata EE)
+4. Hibernate: version **5.6** (this is the latest version that still support Java; the later version 6.2 only support Jarkata EE)
 ### How to run the project
 To run the project from the command line, go to the dist folder and type the following:
 
