@@ -7,9 +7,9 @@ This is a simple demo app which uses Hibernate framework to communicate with the
 - Folder 'lib': all libraries/frameworks that are used for this project
 - Folder 'dist': .jar file to run the project locally as well as libraries used for this project
 ### Tools
-- JDK 8.0 or JDK 11
+- JDK 8.0 or JDK 11 
 - Hibernate version **5.6**
-- MySQL and MySQLWorkBench
+- MySQL and MySQLWorkBench ( see installation instruction [here](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) and MySQL Workbench download [here](https://dev.mysql.com/downloads/workbench/))
 ### How to run the project
 To run the project from the command line, go to the dist folder and type the following:
 
