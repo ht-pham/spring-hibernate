@@ -14,7 +14,7 @@ The Java program have Hibernate configured with login info of an account (other 
 ### Directory Explained
 - Folder 'database': (1) The 01-create-user.sql is for setting up a new user account who has full access and authorization to the database, (2) the hb_student_tracker_student.sql file is used for building the database with the 'student' table.
 - Folder 'src': all the source codes are located as well as Hibernate configuration file
-- Folder 'lib': all libraries/frameworks that are used for this project
+- Folder 'lib': all libraries/frameworks that are used for this project. For this project, only required Hibernate libraries (in .jar files) and mysql-connector-java.8.0.30.jar for JDBC connection (download [here](https://dev.mysql.com/downloads/connector/j/))
 - Folder 'dist': .jar file to run the project locally as well as libraries used for this project
 ### Tools
 - JDK 8.0 or JDK 11 
