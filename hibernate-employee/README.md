@@ -17,12 +17,12 @@ The Java program have Hibernate configured with login info of the hiring manager
 - Folder 'sql-scripts': where all sql scripts used for building the database, 'employee' table, and other basic operations (i.e. add & read employees' records) as well as creating hiring manager account to manage the database.
 - Folder 'src': where all source codes for Java program are saved.
 - Folder 'dist': where the classpath including the hibernate-employee.jar file (for running the program) and Hibernate libraries
-- Folder 'lib': where all the libraries needed for this project are located.
+- Folder 'lib': where all the libraries (required Hibernate libraries & MySQL Connector J library) needed for this project are located. (Please refer to README.md for project #5)
 ### Tools
 1. MySQL & MySQLWorkBench ( see installation instruction for MySQL [here](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) and for downloading MySQL Workbench [here](https://dev.mysql.com/downloads/workbench/))
 2. JDK version: 8.0 or 11.0
 3. Java IDE: any (i.e. your favorite IDE for Java)
-4. Hibernate: version **5.6** (this is the latest version that still support Java; the later version 6.2 only support Jarkata EE)
+4. Hibernate: version **5.6** (this is the latest version that still support Java and Spring 5; the later version 6.2 only support Jarkata EE)
 ### How to run the project
 To run the project from the command line, go to the dist folder and type the following:
 
